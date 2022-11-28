@@ -3,3 +3,9 @@ footer {
     justify-content: flex-end;
     font-size: 0.8rem;
 }
+
+footer > span:hover {
+    cursor: pointer;
+    transform: rotateZ(1deg);
+    transition: 0.2s;
+}
