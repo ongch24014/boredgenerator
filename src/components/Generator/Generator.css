@@ -1,0 +1,27 @@
+.generator-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.generator-section > button {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.generator-section > button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: 0.2s;
+    background-color: #e4e4e4;
+}
+
+.generated {
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    font-size:  1.5rem;
+}
